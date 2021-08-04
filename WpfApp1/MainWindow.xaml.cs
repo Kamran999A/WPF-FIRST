@@ -47,6 +47,7 @@ namespace WpfApp1
         {
             if (sender is Button button)
             {
+
                 Title = $"Button Content  \"{button.Content}\" is Deleted.";
                 int buttonUID = Convert.ToInt32(button.Uid);
                 if (buttonUID == ClearAllButtonUID)
