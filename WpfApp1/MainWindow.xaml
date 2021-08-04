@@ -1,0 +1,130 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Name="MainGrid">
+        <Border Background="Red" CornerRadius="15" Margin="10,10,668,350">
+            <Button
+                Uid="0" 
+                Name="BtnClearAll" 
+                Cursor="Hand" 
+                BorderThickness="0" 
+                Background="Red" 
+                Width="85"
+                Height="35" 
+                FontSize="20" 
+                Foreground="PapayaWhip"
+                MouseRightButtonUp="RightButtonUp">
+                Clear All
+            </Button>
+        </Border>
+        <Label 
+             FontSize="15" 
+             Foreground="Red" 
+             Margin="10,69,604,290"
+             Content="Press Mouse Right Click"/>
+        <StackPanel Name="StackPanelFirst" Margin="214,0,0,0" Orientation="Horizontal">
+
+            <Button 
+                Uid="1"
+                Name="BtnFirst" 
+                Padding="20" 
+                Cursor="Hand"
+                Width="100"
+                Height="100" 
+                FontSize="40" 
+                Background="#FF7F26" 
+                Margin="100,67,0,252"
+                Click="Click"
+                MouseRightButtonUp="RightButtonUp"
+                Content="1">
+            </Button>
+
+            <Button 
+                Uid="2" 
+                Name="BtnSecond" 
+                Cursor="Hand" 
+                Width="100"
+                Height="100" 
+                FontSize="40"
+                Background="#FEAEC9" 
+                Margin="80,67,0,252"
+                Click="Click" 
+                MouseRightButtonUp="RightButtonUp"
+                Content="2">
+            </Button>
+
+            <Button
+                Uid="3" 
+                Name="BtnThird" 
+                Cursor="Hand"
+                Width="100" 
+                Height="100"
+                FontSize="40" 
+                Background="#00A2E7" 
+                Margin="80,67,0,252"
+                Click="Click" 
+                MouseRightButtonUp="RightButtonUp"
+                Content="3">
+            </Button>
+
+        </StackPanel>
+
+        <StackPanel Name="StackPanelSecond" Margin="214,300,0,0" Orientation="Horizontal">
+
+            <Button
+                Uid="4"
+                Name="BtnFourth" 
+                Cursor="Hand" 
+                Width="100" 
+                Height="100" 
+                FontSize="40" 
+                Background="#ED1B24" 
+                Margin="100,-69,0,88"
+                Click="Click" 
+                MouseRightButtonUp="RightButtonUp"
+                Content="4">
+            </Button>
+
+            <Button 
+                Uid="5" 
+                Name="BtnFifth"
+                Cursor="Hand"
+                Width="100" Height="100" 
+                FontSize="40" 
+                Background="#A248A2" 
+                Margin="80,-69,0,88"
+                Click="Click" 
+                MouseRightButtonUp="RightButtonUp"
+                Content="5">
+            </Button>
+
+            <Button 
+                Uid="6" 
+                Name="BtnSixth" 
+                Cursor="Hand"
+                Width="100"
+                Height="100" 
+                FontSize="40"
+                Background="#C3C3C3" 
+                Margin="80,-69,0,88"
+                Click="Click"
+                MouseRightButtonUp="RightButtonUp"
+                Content="6">
+            </Button>
+
+        </StackPanel>
+
+    </Grid>
+
+
+
+</Window>
+  
+   
+    
+    
